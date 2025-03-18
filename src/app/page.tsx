@@ -41,7 +41,7 @@ export default function HomePage() {
               </div>
               <div className="space-x-4">
                 <Button className="bg-gradient-to-r from-pink-500 to-purple-600 hover:from-pink-600 hover:to-purple-700 text-white border-0">
-                  <Link href="#timeline">Explore Timeline</Link>
+                  <Link href="#timeline">Hikayene göz at</Link>
                 </Button>
               </div>
             </div>
@@ -74,10 +74,10 @@ export default function HomePage() {
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl bg-gradient-to-r from-pink-500 to-orange-400 bg-clip-text text-transparent">
-                  Friends & Memories
+                  Arkadaşlar
                 </h2>
                 <p className="mx-auto max-w-[700px] text-pink-700 md:text-xl">
-                  Special moments and messages from the people who love you.
+                  Sevdiklerinden kareler
                 </p>
               </div>
             </div>
@@ -89,7 +89,7 @@ export default function HomePage() {
       </main>
       <footer className="w-full border-t border-pink-200 bg-white py-6">
         <div className="container flex flex-col items-center justify-center gap-4 px-4 md:px-6 md:flex-row">
-          <p className="text-center text-sm text-pink-600 md:text-left">Made with ❤️ for your special day</p>
+          <p className="text-center text-sm text-pink-600 md:text-left">Aşk ile yapıldı</p>
           <p className="text-center text-sm text-pink-600 md:text-right">© {new Date().getFullYear()}</p>
         </div>
       </footer>
