@@ -66,3 +66,26 @@
     @apply bg-popover text-popover-foreground;
   }
 }
+
+/* Add heart floating animation */
+@keyframes heartFloat {
+  0% {
+    transform: translateY(0) rotate(0deg);
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 0.8;
+  }
+  100% {
+    transform: translateY(-100vh) rotate(360deg);
+    opacity: 0;
+  }
+}
+
+.heart-float {
+  animation: heartFloat linear infinite;
+  will-change: transform, opacity;
+}
